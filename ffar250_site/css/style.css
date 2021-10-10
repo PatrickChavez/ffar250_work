@@ -1,0 +1,216 @@
+/* import */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+/* Universal Selector */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body */
+body {
+  background-color: #1e2457;
+  color: #b2ccf7;
+  font-size: 12px;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Paragraphs */
+p {
+  padding: 1%;
+  font-size: 2em;
+  font-weight: 400;
+}
+
+/* All headers */
+header {
+
+  padding: 1%;
+}
+
+header h1 {
+  font-size: 2em;
+  font-weight: 900;
+}
+
+/* header h2 {
+  font-size: 3em;
+  font-weight: bold;
+} */
+
+/* mainHeader class */
+.mainHeader h1 {
+  font-size: 4em;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+}
+
+.mainHeader a {
+  text-decoration: none;
+}
+
+.mainHeader a:link {
+  color: #b2ccf7;
+}
+
+.mainHeader a:visited {
+  color: #b2ccf7;
+}
+
+.mainHeader a:hover {
+  color: #b2ccf7;
+}
+
+.mainHeader a:active {
+  color: #b2ccf7;
+}
+
+/* img */
+
+img {
+  width: 70%;
+  height: 70%;
+}
+
+/* All <nav> */
+nav {
+  background-color: #7e81d9;
+  text-transform: uppercase;
+  font-size: 2em;
+  /* "Centers" text */
+  display: flex;
+  justify-content: center;
+}
+
+
+nav a:link {
+  color: #000e2e;
+  padding: 1% 2%;
+  /* Removes link underline */
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: #001a6e;
+}
+
+nav a:hover {
+  color: #b2ccf7;
+  background-color: #000485;
+}
+
+nav a.active {
+  color: #b2ccf7;
+  background-color: #000485;
+}
+
+/* All other <a> links */
+a {
+  font-size: 24px;
+  transition: all .5s;
+}
+
+a:link {
+  color: #b2ccf7;
+}
+
+a:visited {
+  color: #b2ccf7;
+}
+
+a:hover {
+  color: #e39d07;
+}
+
+a:active {
+  color: #ffffff;
+}
+
+/* indexText */
+.indexText {
+  /* "Centers" text */
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  font-size: 5em;
+}
+
+/* About */
+/* Code from W3Schools */
+/* https://www.w3schools.com/howto/howto_css_fullscreen_video.asp */
+video.aboutVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+	z-index: -2;
+}
+
+.aboutText {
+  font-size: 4em;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+}
+
+.aboutDescription {
+  padding: 2%;
+  background-color: rgba(0, 0, 0, 90%);
+  border: 1px solid #b2ccf7;
+  margin: 2% 11%;
+  font-size: 2em;
+  line-height: 2;
+}
+
+.aboutTitle {
+  display: flex;
+  justify-content: center;
+  padding: 2% 1% .5% 1%;
+  font-size: 7em;
+  font-weight: 900;
+}
+
+.aboutSubtitle {
+  display: flex;
+  justify-content: center;
+  padding: .5% 2% 2% 2%;
+  font-size: 5em;
+}
+
+.aboutFigure {
+  display: flex;
+  justify-content: center;
+}
+
+.aboutFigure img {
+  width: 25%;
+  height: 25%;
+}
+
+/* Prompt 1 */
+.prompt1Title {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  font-size: 5em;
+}
+
+.prompt1Description {
+  padding: 1%;
+  background-color: rgba(0, 0, 0, 75%);
+  border: 1px solid #b2ccf7;
+  margin: 2% 10%;
+  font-size: 18px;
+}
+
+.prompt1Figure {
+  display: flex;
+  justify-content: center;
+}
+
+.prompt1Body {
+   background: url("../images/Prompt1BG4.png");
+}
