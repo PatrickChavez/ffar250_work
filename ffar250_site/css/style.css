@@ -25,7 +25,6 @@ p {
 
 /* All headers */
 header {
-
   padding: 1%;
 }
 
@@ -38,7 +37,6 @@ header h1 {
   font-size: 3em;
   font-weight: bold;
 } */
-
 /* mainHeader class */
 .mainHeader h1 {
   font-size: 4em;
@@ -68,7 +66,6 @@ header h1 {
 }
 
 /* img */
-
 img {
   width: 70%;
   height: 70%;
@@ -83,7 +80,6 @@ nav {
   display: flex;
   justify-content: center;
 }
-
 
 nav a:link {
   color: #000e2e;
@@ -146,7 +142,7 @@ video.aboutVideo {
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
-	z-index: -2;
+  z-index: -2;
 }
 
 .aboutText {
@@ -204,6 +200,7 @@ video.aboutVideo {
   border: 1px solid #b2ccf7;
   margin: 2% 10%;
   font-size: 18px;
+  line-height: 1.5;
 }
 
 .prompt1Figure {
@@ -212,5 +209,6 @@ video.aboutVideo {
 }
 
 .prompt1Body {
-   background: url("../images/Prompt1BG4.png");
+  background: url("../images/Prompt1BG4.png");
+  background-size: 200%;
 }
